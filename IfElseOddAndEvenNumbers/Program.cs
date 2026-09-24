@@ -19,10 +19,14 @@
                 if (number % 2 == 0)
                 {
                     Console.WriteLine(input + " on paarisarv");
+                    Console.WriteLine("--");
+                    MeetodEven();
                 }
                 else
                 {
-                    Console.WriteLine(input + " on paaritu arv");
+                    Console.WriteLine(input + " on paarituarv");
+                    Console.WriteLine("--");
+                    MeetodOdd();
                 }
             }
             else if (input == "meow")
@@ -33,6 +37,14 @@
             {
                 Console.WriteLine("Tegemist pole numbriga");
             }
+        }
+        static void MeetodOdd()
+        {
+            Console.WriteLine("??? Ikka veel paarituarv!");
+        }
+        static void MeetodEven()
+        {
+            Console.WriteLine("??? Ikka veel paarisarv!");
         }
     }
 }
