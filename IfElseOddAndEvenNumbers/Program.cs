@@ -40,11 +40,11 @@
         }
         static void MeetodOdd()
         {
-            Console.WriteLine("??? Ikka veel paarituarv!");
+            Console.WriteLine("?? Ikka veel paarituarv!");
         }
         static void MeetodEven()
         {
-            Console.WriteLine("??? Ikka veel paarisarv!");
+            Console.WriteLine("?? Ikka veel paarisarv!");
         }
     }
 }
