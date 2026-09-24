@@ -15,6 +15,7 @@
             Console.WriteLine("--");
             if (int.TryParse(input, out int number))
             {
+                //% 2 topib võmalikult palju 2 numbrisse, ja kui jääk on 0 ss on paarisarv (4 - 2 + 2 = 0)
                 if (number % 2 == 0)
                 {
                     Console.WriteLine(input + " on paarisarv");
