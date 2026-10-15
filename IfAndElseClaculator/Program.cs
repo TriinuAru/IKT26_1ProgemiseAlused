@@ -31,7 +31,7 @@
             }
             else if (Mark == "+")
             {
-                Console.WriteLine(Nr1 + Mark + Nr2 + " = " + Nr1 + Nr2);
+                Console.WriteLine(Nr1 + Mark + Nr2 + " = " + (Nr1 + Nr2));
             }
             else if (Mark == "-")
             {
